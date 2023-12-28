@@ -1,27 +1,48 @@
 /******************************************************************************
- * Copyright (C) 2017 by Alex Fosdick - University of Colorado
- *
- * Redistribution, modification or use of this software in source or binary
- * forms is permitted as long as the files maintain this copyright. Users are 
- * permitted to modify this and use it to learn about the field of embedded
- * software. Alex Fosdick and the University of Colorado are not liable for any
- * misuse of this material. 
- *
- *****************************************************************************/
+* Copyright (C) 2023 by Ashkan Haghparast - Ajand Electronics Co.
+*
+* Redistribution, modification or use of this software in sources is permitted as long as file
+* maitain this copyright. the file is not allowed to change by user
+*
+******************************************************************************/
+
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.c> 
+ * @brief <Use this file to calculate statistical functions>
  *
- * <Add Extended Description Here>
+ * <In this file we have Some function to calculating statistical operations>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Ashkan Haghparast>
+ * @date <2023/12/28>
  *
  */
+
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+//The main function
+void main();
+
+//A function that prints the statistics of an array including minimum, maximum, mean, and median.
+void print_statistics(void);
+
+//Given an array of data and a length, prints the array to the screen
+void print_array(void);
+
+//Given an array of data and a length, returns the median value
+unsigned char find_median(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare);
+
+//Given an array of data and a length, returns the mean
+unsigned char find_mean(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare);
+
+//Given an array of data and a length, returns the maximum
+unsigned char find_maximum(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare);
+
+//Given an array of data and a length, returns the minimum
+unsigned char find_minimum(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare);
+
+//Given an array of data and a length, sorts the array from largest to smallest
+unsigned char sort_array(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare);
 
 /**
  * @brief <Add Brief Description of Function Here>
