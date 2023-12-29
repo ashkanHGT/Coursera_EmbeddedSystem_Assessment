@@ -46,24 +46,24 @@ void print_array(void){
 
 }
 
-unsigned char find_median(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare){
+unsigned char find_median(unsigned char *DataToCompare, unsigned int ArraySizeToCompare){
 
 }
 
-unsigned char find_mean(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare){
+unsigned char find_mean(unsigned char *DataToCompare, unsigned int ArraySizeToCompare){
 
 } 
 
 
-unsigned char find_maximum(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare){
+unsigned char find_maximum(unsigned char *DataToCompare, unsigned int ArraySizeToCompare){
 
 }
 
-unsigned char find_minimum(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare){
+unsigned char find_minimum(unsigned char *DataToCompare, unsigned int ArraySizeToCompare){
 
 }
 
-unsigned char sort_array(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare){
+unsigned char sort_array(unsigned char *DataToCompare, unsigned int ArraySizeToCompare){
 
 }
 

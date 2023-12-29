@@ -30,19 +30,19 @@ void print_statistics(void);
 void print_array(void);
 
 //Given an array of data and a length, returns the median value
-unsigned char find_median(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare);
+unsigned char find_median(unsigned char *DataToCompare, unsigned int ArraySizeToCompare);
 
 //Given an array of data and a length, returns the mean
-unsigned char find_mean(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare);
+unsigned char find_mean(unsigned char *DataToCompare, unsigned int ArraySizeToCompare);
 
 //Given an array of data and a length, returns the maximum
-unsigned char find_maximum(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare);
+unsigned char find_maximum(unsigned char *DataToCompare, unsigned int ArraySizeToCompare);
 
 //Given an array of data and a length, returns the minimum
-unsigned char find_minimum(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare);
+unsigned char find_minimum(unsigned char *DataToCompare, unsigned int ArraySizeToCompare);
 
 //Given an array of data and a length, sorts the array from largest to smallest
-unsigned char sort_array(unsigned *char DataToCompare, unsigned integer ArraySizeToCompare);
+unsigned char sort_array(unsigned char *DataToCompare, unsigned int ArraySizeToCompare);
 
 /**
  * @brief <Add Brief Description of Function Here>
